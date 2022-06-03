@@ -1,13 +1,13 @@
 Package: pald
-Title: Partitioned Local Depths for Community Structure in Data
-Version: 0.0.1
+Title: Partitioned Local Depth for Community Structure in Data
+Version: 0.0.2
 Authors@R: 
     c(person("Katherine", "Moore", email = "kmoore@amherst.edu", role = c("aut"),
            comment = c(ORCID = "0000-0001-6943-2416")),
     person("Kenneth", "Berenhaut", email = "berenhks@wfu.edu", role = c("aut")),
     person("Lucy", "D'Agostino McGowan", email = "lucydagostino@gmail.com",
     role = c("aut", "cre"), comment = c(ORCID = "0000-0001-7297-9359")))
-Description: Implementation of the Partitioned Local Depths (PaLD) 
+Description: Implementation of the Partitioned Local Depth (PaLD) 
     approach which provides a measure of local depth and the cohesion of a point 
     to another which  (together with a universal threshold for distinguishing 
     strong and weak ties) may be used to reveal local and global structure in 
@@ -28,11 +28,11 @@ BugReports: https://github.com/LucyMcGowan/pald/issues
 Suggests: testthat (>= 3.0.0)
 Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2022-04-12 15:21:15 UTC; lucymcgowan
+Packaged: 2022-06-02 22:01:41 UTC; lucymcgowan
 Author: Katherine Moore [aut] (<https://orcid.org/0000-0001-6943-2416>),
   Kenneth Berenhaut [aut],
   Lucy D'Agostino McGowan [aut, cre]
     (<https://orcid.org/0000-0001-7297-9359>)
 Maintainer: Lucy D'Agostino McGowan <lucydagostino@gmail.com>
 Repository: CRAN
-Date/Publication: 2022-04-14 09:20:05 UTC
+Date/Publication: 2022-06-03 08:30:02 UTC
