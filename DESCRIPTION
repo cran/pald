@@ -1,6 +1,6 @@
 Package: pald
 Title: Partitioned Local Depth for Community Structure in Data
-Version: 0.0.2
+Version: 0.0.3
 Authors@R: 
     c(person("Katherine", "Moore", email = "kmoore@amherst.edu", role = c("aut"),
            comment = c(ORCID = "0000-0001-6943-2416")),
@@ -19,7 +19,7 @@ Description: Implementation of the Partitioned Local Depth (PaLD)
     cohesion against distance. 
 License: MIT + file LICENSE
 Encoding: UTF-8
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.3
 Imports: igraph, graphics, glue
 Depends: R (>= 2.10)
 LazyData: true
@@ -28,11 +28,11 @@ BugReports: https://github.com/LucyMcGowan/pald/issues
 Suggests: testthat (>= 3.0.0)
 Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2022-06-02 22:01:41 UTC; lucymcgowan
+Packaged: 2023-09-28 19:48:37 UTC; lucymcgowan
 Author: Katherine Moore [aut] (<https://orcid.org/0000-0001-6943-2416>),
   Kenneth Berenhaut [aut],
   Lucy D'Agostino McGowan [aut, cre]
     (<https://orcid.org/0000-0001-7297-9359>)
 Maintainer: Lucy D'Agostino McGowan <lucydagostino@gmail.com>
 Repository: CRAN
-Date/Publication: 2022-06-03 08:30:02 UTC
+Date/Publication: 2023-09-28 20:00:02 UTC
