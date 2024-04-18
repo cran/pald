@@ -1,7 +1,7 @@
-2b68beb44db8e755a8ec291726b75624 *DESCRIPTION
+10ab534f141252f28171ed68ca89f517 *DESCRIPTION
 d81907637c0e0f8062973ddffd62e87a *LICENSE
 af5db5d3233edabe1a164a2884c48aff *NAMESPACE
-e48e1839f09538552f82db98225b3f23 *NEWS.md
+f7628b8973330fd9297930c603bdef1c *NEWS.md
 f9e1ab81d965b483a9f37aa47a4359ad *R/aggregation.R
 84517635050fd4012d12c919ac245277 *R/cognate_dist.R
 310c9b294ea25b3931f154a6413a2d1d *R/cultures.R
@@ -11,7 +11,7 @@ c33093c1abdcc7efaada3ca261c92b1b *R/exdata2.R
 fa29ad68dc6ae1d3c56738b7d71d058c *R/noisy_circles.R
 122a1b89ea9b54994af0e9f34c09bb92 *R/noisy_moons.R
 92f5b4a320267cdf36fd4ca14b5915af *R/pald_colors.R
-00b7f4a0797adb7b97e0bf802950ff0b *R/pald_functions.R
+31d237e7397ce95296e75e3c03171bd0 *R/pald_functions.R
 d068c4064ef12a22d573edbc30c5ca40 *R/tissue_dist.R
 5505336c4af0db3741b0f7a28ce92715 *R/utils.R
 d3899a8179a551a91c9cb07babef0e16 *README.md
@@ -55,7 +55,7 @@ da7d79d5f2e334cfebbfb6f56110cd8e *man/figures/README-vary-d-1.png
 758d824437151bfc32794a9d7b62812e *man/local_depths.Rd
 4876d38c9a21b28af5d79ce32f5e5804 *man/noisy_circles.Rd
 5431d615feac1bd3ca48748a063ddf6a *man/noisy_moons.Rd
-5865860ace99fff13ff99e707f249eeb *man/pald.Rd
+3f6fba29fb6af9d29f25b528fe5b6117 *man/pald.Rd
 49656973602ba8f7403d8e176fc41f89 *man/pald_colors.Rd
 f125d7c275a9002d8a9db9cf1d0bd409 *man/plot_community_graphs.Rd
 8474de602d6d91f48f1dd784238e4a5c *man/strong_threshold.Rd

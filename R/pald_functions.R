@@ -507,10 +507,10 @@ community_clusters <- function(c) {
 #'   Default: `50`.
 #' @param colors A vector of display colors, if none is given a default list
 #'   (of length 24) is provided.
+#' @param layout A layout for the graph.  If none is specified, FR-graph
+#'   drawing algorithm is used.
 #' @param ... Optional parameters to pass to the [`igraph::plot.igraph`].
 #'  function. Some commonly passed arguments include:
-#'    * `layout`  A layout for the graph.  If none is specified, FR-graph
-#'   drawing algorithm is used.
 #'    * `vertex.label` A vector containing label names. If none is given,
 #'    the rownames of `c` are used
 #'    * `vertex.size` A numeric value for vertex size (default = `1`)
@@ -555,6 +555,7 @@ pald <- function(d,
                  emph_strong = 2,
                  edge_width_factor = 50,
                  colors = NULL,
+                 layout = NULL,
                  ...) {
 
   d <- check_dist(d)
@@ -568,6 +569,7 @@ pald <- function(d,
                           emph_strong = emph_strong,
                           edge_width_factor = edge_width_factor,
                           colors = colors,
+                          layout = layout %||% c_graphs$layout,
                           ...
     )
   }
@@ -581,7 +583,7 @@ pald <- function(d,
            C_strong = cohesion_strong(c),
            G = c_graphs$G,
            G_strong = c_graphs$G_strong,
-           layout = c_graphs$layout
+           layout = layout %||% c_graphs$layout
       )
     )
   )
